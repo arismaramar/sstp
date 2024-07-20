@@ -58,6 +58,7 @@ yoi=Debian10
 fi
 fi
 mkdir /home/sstp
+mkdir /var/lib/bzstorevpn
 touch /home/sstp/sstp_account
 touch /var/lib/bzstorevpn/data-user-sstp
 #detail nama perusahaan
