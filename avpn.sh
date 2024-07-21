@@ -931,7 +931,7 @@ function ins_Fail2ban(){
 clear
 print_install "INSTALLING Fail2ban"
 if [ -d '/usr/local/ddos' ]; then
-echo; echo; echo "Please un-install the previous version first"
+#echo; echo; echo "Please un-install the previous version first"
 exit 0
 else
 mkdir /usr/local/ddos
